@@ -1,0 +1,4 @@
+set multibuffer
+set tabsize 2
+set tabstospaces
+set nohelp
