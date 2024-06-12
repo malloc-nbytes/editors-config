@@ -450,25 +450,3 @@
 
 (provide 'earl-mode)
 ;; End Earl mode
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-enabled-themes '(gruber-darker))
- '(custom-safe-themes
-   '("cc0dbb53a10215b696d391a90de635ba1699072745bf653b53774706999208e3" "3cc6851e8c373125e7ac25d55725e62dc868fd58f6ce5b4f03137ef7e2b07d1c" "4780d7ce6e5491e2c1190082f7fe0f812707fc77455616ab6f8b38e796cbffa9" "2ccdb4796d3238dd0794f7869750fb0e81fe4f9212f9528cfd4f41da0c78cf25" "e27c9668d7eddf75373fa6b07475ae2d6892185f07ebed037eedf783318761d7" default))
- '(minimap-minimum-width 50)
- '(minimap-mode t)
- '(minimap-width-fraction 0.1)
- '(org-safe-remote-resources
-   '("\\`https://fniessen\\.github\\.io/org-html-themes/org/theme-readtheorg\\.setup\\'" "\\`https://fniessen\\.github\\.io/org-html-themes/org/theme-bigblow\\.setup\\'"))
- '(package-selected-packages
-   '(commentary-theme minimal-theme bind-key eglot eldoc faceup flymake idlwave jsonrpc org project soap-client tramp use-package verilog-mode xref inkpot-theme tuareg multiple-cursors move-text expand-region helm-swoop magit crux gruber-darker-theme smex good-scroll golden-ratio exec-path-from-shell dashboard auto-complete)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(minimap-active-region-background ((t (:extend t :background "lemon chiffon")))))
